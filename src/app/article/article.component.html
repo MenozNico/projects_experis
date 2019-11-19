@@ -1,0 +1,9 @@
+<ul>
+    <li>{{ articleTitle }}
+
+        <p *ngIf="isClicked">Descrizione articolo...</p>
+
+        <button (click)="show.emit()">Show</button>
+        
+    </li>
+</ul>

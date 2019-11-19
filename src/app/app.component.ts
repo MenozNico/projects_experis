@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'basic-project';
+  
+  title: string = 'basic-project';
+
+  items: string[] = ['Tv', 'Ipad', 'smartphone', 'tablet', 'radio'];
 }
